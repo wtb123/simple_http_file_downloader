@@ -431,7 +431,7 @@ void et(struct epoll_event *events, int number, int epollfd, int listenfd,
         char * store_path)
 {
 	int i = 0;
-	char buf[MAX_BUF_LEN];
+	char buf[MAX_BUF_LEN]; // ？？？
 	struct epoll_event ev;
 	for (i = 0; i < number; i++)
 	{
